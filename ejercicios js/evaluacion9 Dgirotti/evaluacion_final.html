@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Evaluación 8</title>
+    <link rel="stylesheet" href="css/estilo.css">  
+</head>
+
+<body>
+   
+    <h1>Piedra, Papel o Tijera</h1>
+
+    <form name='form' id=datos method="GET" action="">
+
+        Jugador 1: <input type="password" name="jugador1" id="jugador1" class="required"></input>
+
+        <br><br>
+
+        Jugador 2: <input type="password" name="jugador2" id="jugador2"></input>
+        <br><br>
+
+
+        <p id="boton_contenedor">
+            <input class="boton_jugar" id="jugar" type="button" value="Jugar" onclick="inicio()" />
+        </p>
+
+
+    </form>
+    <p id="parrafo"></p> <br>
+    <div>
+        <img src="imagenes/inicio.png" id='ganador' height="300px" width="300px" >
+    </div> <br>
+   <div id="jugardenuevo" style="display:none">
+        <input type="button" id="nuevojuego"  value="Jugar Nuevamente" onclick= "location.reload()" />
+    </div> <br>
+
+    <script type="text/javascript" src="js/juego.js"></script>
+
+</body>
+
+</html>

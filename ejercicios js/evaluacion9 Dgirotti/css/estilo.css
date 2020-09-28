@@ -1,0 +1,75 @@
+body {
+	font-family: Calibri;
+	padding: 10px 20px;
+	background-color: rgb(177, 171, 162);
+}
+
+h1 {
+	color: #FFFFFF;
+	background-color: #ffbd33;
+	padding: 10px;
+	border-radius: 0 20px;
+}
+
+#datos {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 14px;
+	width: 100%;
+	text-align: center;
+}
+
+p {
+	font-family: "Times New Roman", Times, serif;
+	font-size: large;
+	color: rgb(5, 80, 150);
+	text-align: center;
+}
+
+label {
+	color: #666666;
+	font-family: Arial;
+	font-size: 18px;
+	padding: 15px;
+}
+
+#boton_contenedor {
+	margin: 0 auto 15px;
+	text-align: center;
+}
+
+#jugador1 {
+	font-family: Arial;
+	font-size: 18px;
+}
+
+#jugador2 {
+	font-family: Arial;
+	font-size: 18px;
+}
+
+#jugar {
+	font-size: 18px;
+	padding: left 12px;
+	text-align: center;
+	margin-left: 70px;
+}
+
+#nuevojuego {
+	font-size: 18px;
+	margin-left: 70px;
+	padding: left 12px;
+	text-align: center;
+}
+
+#ganador {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: center;
+}
+
+#jugardenuevo {
+	margin: 0 auto;
+	text-align: center;
+}

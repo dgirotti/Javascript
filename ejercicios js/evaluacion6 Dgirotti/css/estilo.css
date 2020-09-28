@@ -1,0 +1,43 @@
+body {
+	font-family: Calibri;
+	padding: 10px 20px;
+	background-color: rgb(219, 221, 221);
+}
+
+h1 {
+	color: #FFFFFF;
+	background-color: #ffbd33;
+	padding: 10px;
+	border-radius: 0 20px;
+}
+
+#siniva {
+	font-family: "Times New Roman", Times, serif;
+	font-size: large;
+	color: rgb(3, 24, 143);
+	text-align: left;
+	margin: 35px;
+}
+
+#coniva {
+	font-family: 'Arial, Helvetica, sans-serif';
+	font-size: large;
+	color: rgb(4, 85, 4);
+	text-align: left;
+	margin: 35px;
+}
+
+#clickeable {
+	color: #d1410c;
+	box-shadow: 3px 2px 5px 1px #ccc;
+	text-decoration: none;
+	padding: 10px 20px;
+	font-size: medium;
+	display: inline-block;
+	width: auto;
+	height: auto;
+	text-align: center;
+	margin: 35px;
+	font-family: "Lucida Console", Courier, monospace;
+	cursor: pointer;
+}

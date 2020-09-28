@@ -1,0 +1,40 @@
+body{
+    
+    font-family: Calibri;
+	padding: 20px 20px;
+
+	background-color: rgb(219, 221, 221);
+	font-size: large;
+	font-style: italic;
+	
+}
+
+h1{
+	color: #FFFFFF;
+	background-color: #ffbd33;
+	padding: 10px;
+	border-radius:0 20px;
+}
+
+h3{
+	color: rgb(33, 34, 34);
+	padding: 5px;
+	border-radius:0 20px;
+}
+
+ul{
+	color: rgb(171, 173, 6);	
+	font-size: large;
+	line-height: 18pt;
+
+}
+
+#alerta{
+	color: rgb(252, 4, 4);
+	font-size: large;
+	font-style: italic;
+	font-weight: bold;
+
+}
+
+

@@ -1,0 +1,62 @@
+
+body{
+    
+    font-family: Calibri;
+    padding: 10px 20px;
+}
+
+h1 {
+	color: #FFFFFF;
+	background-color: #ffbd33;
+	padding: 10px;
+	border-radius:0 20px;
+}
+
+
+
+#labeldni{
+	font-family: Calibri;
+	padding: 05px 50px 75px 45px;
+	font-size: x-small;
+
+}
+
+  
+
+#datos{
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 14px; 
+}
+
+p{
+	font-family: "Times New Roman", Times, serif;
+	font-size: large;
+	color: rgb(3, 24, 143);
+	text-align: left;
+	
+}
+
+label {
+	color: #666666;
+	font-family: Arial;
+	font-size: 18px;
+	padding: 15px;
+}
+input, select{
+	border:1px solid #999999;
+}
+#boton_contenedor{
+	margin:0 auto 15px;
+}
+.boton_enviar{
+	padding:0.5em 1.5em;
+}
+label.error { 
+	float: none; 
+	color: red; 
+	padding-left: .5em; 
+	vertical-align: middle; 
+	font-size: 12px; 
+}
+

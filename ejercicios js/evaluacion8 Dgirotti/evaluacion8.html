@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Evaluación 8</title>
+    <link rel="stylesheet" href="css/estilo.css"> 
+    <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.4.4.min.js"></script> 
+    <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.10.0/jquery.validate.min.js"></script> 
+    <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.10.0/localization/messages_es.js"></script>
+    
+</head>
+
+<body>
+
+    <h1>Evaluación Unidad VIII</h1>
+
+     <form name='form' id=datos method="GET" action = "">
+
+        Nombre (*): <input type="text" name="nombre" id="nombre" placeholder="Juan" class ="required" minlength=”3” size="20"></input>
+        <br><br>
+       
+        Apellido (*): <input type="text" name="apellido" id="apellido" placeholder="Perez" class ="required" minlength=”3” size="20"></input>
+        <br><br>
+       
+        DNI (*): <input type="number" name="dni" id="dni" placeholder="20200200" class="required"></input>
+        <br><label id="labeldni">Numeros sin puntos</label>
+        <br><br>
+        
+        Email (*): <input type="email" name="email" id="email" placeholder="nombre@test.com" class= "required"></input>
+        <br><br>
+        
+        Telefono: <input type="tel" name="telefono" id="telefono" placeholder="2611231234"></input>
+        <br>
+        <br><br>
+     
+        <p id="boton_contenedor">
+			<input class="boton_enviar" id= "validar" type="button" value="Validar"/>
+        </p>
+       
+    </form>   
+    <p id="parrafo"></p>
+    
+ <script type="text/javascript" src="js/validaciones.js"></script> 
+
+</body>
+
+</html>
